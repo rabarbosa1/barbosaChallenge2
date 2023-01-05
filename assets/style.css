@@ -44,7 +44,7 @@ nav label {
 }
 
 :target {
-  z-index: 2;
+   z-index: 2;
   opacity: 1;
 }
 /*Hidding mechanism*/
@@ -79,7 +79,6 @@ section {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 0;
   width: 95%;
   min-height: 100%;
   opacity: 0;
@@ -136,9 +135,15 @@ section {
     background: rgb(238, 238, 160);
     color: #fff;
     max-height: fit-content;
-    
-    
 }
+
+.sec-portfolio1 {
+  border: black 10px;
+
+}
+    
+    
+
 .sec-contact {
     background: indianRed;
     color: #fff;
